@@ -1,0 +1,34 @@
+.Admin{
+    display: flex;
+}
+.Admin .Admin_Left{
+    width: 20vw;
+    height: 100vh;
+    position: fixed;
+    background: #ecd8d8;
+}
+.Admin .Admin_Left h4{
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #000000b2;
+}
+.Admin .Admin_Left button{
+    display: block;
+    width: 100%;
+}
+.Admin .Admin_right{
+    margin: 0 0 0 20vw;
+}
+
+.AdminLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.AdminLogin input{
+    display: block;
+    margin: 10px 0;
+}

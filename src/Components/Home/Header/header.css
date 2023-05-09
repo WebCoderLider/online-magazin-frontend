@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    background: url('https://images.pexels.com/photos/135620/pexels-photo-135620.jpeg?cs=srgb&dl=pexels-shattha-pilabut-135620.jpg&fm=jpg');
+    width: 100%;
+    height: 75vh;
+}
+.Header .Header_children{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Header .Header_children h4{
+    font-size: 3rem;
+    color: white;
+    opacity: 0.7;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+.Header .Header_children p{
+    color: white;
+    opacity: 0.7;
+    font-size: 1.2rem;
+    max-width: 800px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+}
